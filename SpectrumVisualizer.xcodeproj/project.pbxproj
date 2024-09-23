@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		8B2B22BD2C982BD700A7441B /* SpectrumVisualizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B22BC2C982BD700A7441B /* SpectrumVisualizerApp.swift */; };
-		8B2B22BF2C982BD700A7441B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B22BE2C982BD700A7441B /* ContentView.swift */; };
 		8B2B22C12C982BD900A7441B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B22C02C982BD900A7441B /* Assets.xcassets */; };
 		8B2B22C42C982BD900A7441B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B22C32C982BD900A7441B /* Preview Assets.xcassets */; };
+		8B2B22CB2C982BE500A7441B /* SpectrumVisualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B22CA2C982BE500A7441B /* SpectrumVisualizer.swift */; };
+		8B2B22CD2C982BFD00A7441B /* AudioEngineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2B22CC2C982BFD00A7441B /* AudioEngineManager.swift */; };
+		8B2B22D52C9835BC00A7441B /* 數碼寶貝.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B2B22D42C9835BC00A7441B /* 數碼寶貝.wav */; };
+		8B7F671F2C9BF2D6000E4022 /* 旅行的意義.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B7F671E2C9BF2D6000E4022 /* 旅行的意義.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B2B22B92C982BD700A7441B /* SpectrumVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpectrumVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2B22BC2C982BD700A7441B /* SpectrumVisualizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectrumVisualizerApp.swift; sourceTree = "<group>"; };
-		8B2B22BE2C982BD700A7441B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B2B22C02C982BD900A7441B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B2B22C32C982BD900A7441B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B2B22CA2C982BE500A7441B /* SpectrumVisualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpectrumVisualizer.swift; sourceTree = "<group>"; };
+		8B2B22CC2C982BFD00A7441B /* AudioEngineManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngineManager.swift; sourceTree = "<group>"; };
+		8B2B22D42C9835BC00A7441B /* 數碼寶貝.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "數碼寶貝.wav"; sourceTree = "<group>"; };
+		8B7F671E2C9BF2D6000E4022 /* 旅行的意義.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "旅行的意義.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				8B2B22BC2C982BD700A7441B /* SpectrumVisualizerApp.swift */,
-				8B2B22BE2C982BD700A7441B /* ContentView.swift */,
+				8B2B22CA2C982BE500A7441B /* SpectrumVisualizer.swift */,
+				8B2B22CC2C982BFD00A7441B /* AudioEngineManager.swift */,
+				8B2B22D42C9835BC00A7441B /* 數碼寶貝.wav */,
+				8B7F671E2C9BF2D6000E4022 /* 旅行的意義.wav */,
 				8B2B22C02C982BD900A7441B /* Assets.xcassets */,
 				8B2B22C22C982BD900A7441B /* Preview Content */,
 			);
@@ -127,6 +136,8 @@
 			files = (
 				8B2B22C42C982BD900A7441B /* Preview Assets.xcassets in Resources */,
 				8B2B22C12C982BD900A7441B /* Assets.xcassets in Resources */,
+				8B7F671F2C9BF2D6000E4022 /* 旅行的意義.wav in Resources */,
+				8B2B22D52C9835BC00A7441B /* 數碼寶貝.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B2B22BF2C982BD700A7441B /* ContentView.swift in Sources */,
+				8B2B22CB2C982BE500A7441B /* SpectrumVisualizer.swift in Sources */,
+				8B2B22CD2C982BFD00A7441B /* AudioEngineManager.swift in Sources */,
 				8B2B22BD2C982BD700A7441B /* SpectrumVisualizerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
